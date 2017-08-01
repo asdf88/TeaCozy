@@ -15,7 +15,8 @@ body {
   width: 100%;
   border-bottom: 1px solid seashell;
   justify-content: space-between;
-  padding: auto 10px;
+  padding-left: 10px;
+  align-items: center;
   z-index: 10;
 }
 
@@ -24,6 +25,9 @@ body {
 }
 
 #header #headerNav a {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
   text-decoration: underline;
-  padding-left: 30px; 
+  padding-right: 30px;
 }
