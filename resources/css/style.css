@@ -92,3 +92,39 @@ body {
   margin-top: 0;
   margin-bottom: 25px;
 }
+
+#locations {
+  background-image: url(../images/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  position: relative;
+  top: 70px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+#locations h2 {
+  padding-bottom: 0;
+  padding-top: 45px;
+  margin-bottom: 15px;
+}
+
+.areas {
+  display: inline-flex;
+  width: 980px;
+  height: 300px;
+  justify-content: space-between;
+  bottom: 100px;
+}
+
+.locBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 300px;
+  width: 300px;
+  margin: 0 0;
+  text-align: center;
+  opacity: 1;
+  background-color: black;
+}
