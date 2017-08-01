@@ -94,18 +94,20 @@ body {
 }
 
 #locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-image: url(../images/img-locations-background.jpg);
-  height: 500px;
+  height: 600px;
   width: 1200px;
   position: relative;
   top: 70px;
   margin: 10px auto;
-  text-align: center;
+  align-items: center;
 }
 
 #locations h2 {
   padding-bottom: 0;
-  padding-top: 45px;
   margin-bottom: 15px;
 }
 
@@ -114,7 +116,7 @@ body {
   width: 980px;
   height: 300px;
   justify-content: space-between;
-  bottom: 100px;
+  bottom: 150px;
 }
 
 .locBox {
@@ -127,4 +129,24 @@ body {
   text-align: center;
   opacity: 1;
   background-color: black;
+}
+
+#contact {
+  display: flex;
+  position: relative;
+  top: 70px;
+  height: 200px;
+  width: 100%;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#copyright {
+  position: relative;
+  top: 150px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 20px;
+  text-align: left;
 }
