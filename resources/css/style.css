@@ -31,3 +31,27 @@ body {
   text-decoration: underline;
   padding-right: 30px;
 }
+
+#mission {
+  display: flex;
+  background-image: url(../images/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  position: relative;
+  top: 70px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.missionBanner {
+  background-color: black;
+  width: 1200px;
+  height: 100px;
+}
+
+.missionBanner h2,
+.missionBanner h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
