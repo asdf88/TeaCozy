@@ -1,3 +1,4 @@
+/* body tags containing the basic styling guidelines. */
 body {
   font-family: Helvetica;
   font-size: 22px;
@@ -7,6 +8,7 @@ body {
   text-align: center;
 }
 
+/* Styling of the header, ensuring its postion is fixed and it has a decent z-index. */
 #header {
   display: flex;
   position: fixed;
@@ -34,6 +36,7 @@ body {
   padding-right: 30px;
 }
 
+/* Styling of the mission section, arranging the banner to lie in the center over the image. */
 #mission {
   display: flex;
   background-image: url(../images/img-mission-background.jpg);
@@ -58,6 +61,7 @@ body {
   margin-bottom: 10px;
 }
 
+/* Styling of the 'featured' section, with the help of nesting flex containers. */
 #featured {
   position: relative;
   top: 70px;
@@ -92,9 +96,9 @@ body {
   margin-top: 0;
   margin-bottom: 25px;
 }
-
+ /* Styling of the section outlining the shop's different locations, again by using nesting flex containers. */
 #locations {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   justify-content: center;
   background-image: url(../images/img-locations-background.jpg);
@@ -103,7 +107,6 @@ body {
   position: relative;
   top: 70px;
   margin: 10px auto;
-  align-items: center;
 }
 
 #locations h2 {
@@ -116,7 +119,9 @@ body {
   width: 980px;
   height: 300px;
   justify-content: space-between;
-  bottom: 150px;
+  margin: 0 auto;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .locBox {
@@ -131,6 +136,7 @@ body {
   background-color: black;
 }
 
+/* Brief styling of the contact section */
 #contact {
   display: flex;
   position: relative;
@@ -142,6 +148,7 @@ body {
   justify-content: space-between;
 }
 
+/* Brief styling of the copyright section */
 #copyright {
   position: relative;
   top: 150px;
